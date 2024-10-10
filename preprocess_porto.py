@@ -1,6 +1,6 @@
 import csv
 import numpy as np
-import Pickle
+import pickle
 
 porto_lon_range = [-9.0, -7.9]
 porto_lat_range = [40.7, 41.8]
