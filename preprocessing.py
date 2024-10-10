@@ -10,8 +10,8 @@ def distance_comp(coor_path):
     np_traj_coord = []
     for t in traj_coord:
         np_traj_coord.append(np.array(t))
-    print np_traj_coord[0]
-    print np_traj_coord[1]
+    print (np_traj_coord[0])
+    print (np_traj_coord[1])
     print len(np_traj_coord)
 
     distance_type = 'dtw'
